@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>QuickAccessButtonsEnabled</string>
+			<key>label</key>
+			<string>Quick Access Buttons</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>HapticsEnabled</string>
+			<key>label</key>
+			<string>Haptics</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>ConnectivityPageEnabled</string>
+			<key>label</key>
+			<string>Connectivity Page</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>CC26Anim gives you better animation when holding down the pager indicator and better animation in edit mode, disable if you're experiencing bugs but you will lose holding down functionality when doing so.</string>
+			<key>label</key>
+			<string>Paging</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>PagingEnabled</string>
+			<key>label</key>
+			<string>Enable Paging</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>ExperimentalPaging</string>
+			<key>label</key>
+			<string>CC26Anim</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>lets you edit the Control Center module by resizing it, or repositioning module, thats it. It may be unstable.
+
+FYI: if you have home buttoned iphone, make sure you have more than 10 control center module</string>
+			<key>label</key>
+			<string>Editing</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.controlcenter26/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.controlcenter26.preferences</string>
+			<key>key</key>
+			<string>EditModeEnabled</string>
+			<key>label</key>
+			<string>CC26Edit (EXPERIMENTAL)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Made by Lionel and Pala
+
+Based on CCock18 by pawxed (Max)</string>
+			<key>label</key>
+			<string>Actions</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>controlcenter26</string>
+</dict>
+</plist>
