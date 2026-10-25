@@ -1,3 +1,1 @@
-Spanish: Agradecimiento especialmente a Pawxed (max) por el tweak original (ccock18) y su código sobre el cual se basa y expande este proyecto bajo la licencia GPL v3
-
-English:Special thanks to Pawxed (max) for the original tweak (ccock18) and its code on which this project is based and expanded under the GPL v3 license
+Tweak that adds ios 26 control center with menus, anims and more you can use this tweak with liquid glass tweak made by winaviation! used ccock18 tweak as a base, credits for Pawxed (max) for base code. Thanks to Lionel for helping me and making this tweak possible 
