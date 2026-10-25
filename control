@@ -1,0 +1,9 @@
+Package: com.controlcenter26
+Name: controlcenter26
+Version: 0.0.8a
+Architecture: iphoneos-arm
+Description: A tweak that makes the control center similar to that of ios 26
+Maintainer: Pala and Lionel
+Author: Lionel and Pala
+Section: Tweaks
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, com.opa334.ccsupport, mobilesubstrate, preferenceloader
